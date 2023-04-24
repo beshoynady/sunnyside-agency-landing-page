@@ -1,0 +1,28 @@
+.boxs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0;
+    padding:0
+}
+.boxs .rowinfo{
+    width: 100%;
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+    .boxs{
+        width: 100%;
+        flex-direction:column;
+    }
+    .boxs .rowinfo{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .boxs .rowrev{
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+}

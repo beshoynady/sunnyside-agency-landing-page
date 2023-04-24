@@ -1,0 +1,33 @@
+.footer{
+    width: 100%;
+    height: 400px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--Dark_moderate_cyan);
+}
+.footer a .logo{
+    width: 150px;
+    height: 40px;
+    color: #000;
+    fill: red !important;
+}
+
+.footer .links li a{
+    margin: 20px;
+    color: var(--Dark_blue);
+    cursor: pointer;
+}
+.footer .links li a:hover{
+    color:white;
+}
+.footer .icon li{
+    margin: 20px;
+}
+
+.footer .icon li img{
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,44 @@
+.card{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    border: none;
+}
+.card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.card p{
+    font-size: 18px;
+    color:var(--Dark_grayish_blue);
+    font-weight: bold;
+}
+.card .name{
+    text-align: center;
+}
+.card .name h2{
+    font-family: 'Fraunces', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: x-large;
+}
+.card .name h4{
+    font-family: 'Fraunces', sans-serif;
+    text-transform: capitalize;
+    font-size: 14px;
+    color: var(--Dark_grayish_blue);
+}
+
+
+@media screen and (max-width:900px) {
+    .card{
+        width: 80%;
+        margin-top: 30px;
+    }
+    
+}    
+    

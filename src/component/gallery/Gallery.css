@@ -1,0 +1,26 @@
+.gallery{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery .image{
+    width: calc(100%/4);
+    height: 100%;
+}
+.gallery .image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:900px) {
+    .gallery{
+        height: 100%;
+    }
+    .gallery .image{
+        width: calc(100%/2);
+    }
+}

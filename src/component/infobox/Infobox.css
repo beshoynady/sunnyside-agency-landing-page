@@ -1,0 +1,34 @@
+.infobox{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.infobox .infobox-content{
+    width: 65%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-between;
+    font-family: 'Fraunces', serif;
+
+}
+.infobox .infobox-content h1{
+    font-weight: 900;
+}
+
+.infobox .infobox-content p{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 700;
+    color: var(--Very_dark_grayish_blue);
+}
+
+@media screen and (max-width:900px) {
+    .infobox{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,35 @@
+.design{
+    width: 50%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background-size:cover ;
+    background-position: center center ;
+}
+.design .content{
+    width: 60%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.design .content h1{
+    font-size: xx-large;
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:900px) {
+    .design{
+        width: 100%;
+    }
+    
+}
