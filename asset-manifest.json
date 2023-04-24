@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aca337ce.css",
-    "main.js": "/static/js/main.b73cea04.js",
+    "main.js": "/static/js/main.3ab15be3.js",
     "static/media/image-header.jpg": "/static/media/image-header.49b52ffa54752cb7c2d0.jpg",
     "static/media/image-gallery-milkbottles.jpg": "/static/media/image-gallery-milkbottles.df1d9d8460e873924250.jpg",
     "static/media/image-gallery-sugarcubes.jpg": "/static/media/image-gallery-sugarcubes.09b72f4fbfbf08579f9d.jpg",
@@ -18,10 +18,10 @@
     "static/media/icon-arrow-down.svg": "/static/media/icon-arrow-down.979ef07a7cbb07d35f05bbaa093f7489.svg",
     "static/media/icon-hamburger.svg": "/static/media/icon-hamburger.7764b7eb6060edb45161f8b146f1373c.svg",
     "main.aca337ce.css.map": "/static/css/main.aca337ce.css.map",
-    "main.b73cea04.js.map": "/static/js/main.b73cea04.js.map"
+    "main.3ab15be3.js.map": "/static/js/main.3ab15be3.js.map"
   },
   "entrypoints": [
     "static/css/main.aca337ce.css",
-    "static/js/main.b73cea04.js"
+    "static/js/main.3ab15be3.js"
   ]
 }
