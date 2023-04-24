@@ -11,9 +11,7 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://beshoynady.github.io/react-sunnyside-agency-landing-page"
-
-
+    "homepage": "https://beshoynady.github.io/sunnyside-agency-landing-page"
   },
   "scripts": {
     "start": "react-scripts start",
