@@ -6,7 +6,7 @@ import Header from './component/header/Header';
 import Gallery from './component/gallery/Gallery';
 import { Fragment } from 'react';
 
-function App() {
+const App = ()=>{
   return (
     <Fragment>
       <Header/>
